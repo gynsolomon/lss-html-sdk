@@ -36,7 +36,7 @@ var MEDIA_DEVICE_INFO = "Media.Device.Info";
 var RTMP_PEPFLASH = "Rtmp.PepFlash";
 
 var UUID_BASE = 0;
-var THIS_SWF_NAME = "assets/vvMedia.swf";
+var THIS_SWF_NAME = "vvMedia.swf";
 var globalUUID_CallbackFuncMap = {};
 var globalUUID_OnSwfReadyFuncMap = {};
 // 视频显示对象
@@ -948,7 +948,7 @@ function createVideo(id, uuid, width, height, param) {
 	var displayid = id.toString();
 	var swfVersionStr = "11.1.0";
 	// To use express install, set to playerProductInstall.swf, otherwise the empty string.
-	var xiSwfUrlStr = "assets/playerProductInstall.swf";
+	var xiSwfUrlStr = "playerProductInstall.swf";
 	var flashvars = {};
 	flashvars.uuid = uuid;
 	var params = {};
